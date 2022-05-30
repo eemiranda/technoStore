@@ -1,0 +1,132 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+ 
+
+body{
+  background-color:#4a4a7a;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+}
+
+
+header, .alert{
+  z-index: 100;
+}
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
+}
+
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about h2{
+  margin-top: 40px;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.about P{
+  margin-top: 10px;
+  text-align: initial;
+  margin-left: 5px;
+  padding-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+
+.contact-section{
+  margin-top: 50px;
+  padding: 80px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: #ddd;
+}
+ 
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #0d6efd;
+}
+
+.footer{
+   
+  margin-top: 40rem;
+}
+
